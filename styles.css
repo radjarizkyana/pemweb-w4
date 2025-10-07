@@ -1,87 +1,64 @@
 body {
-    background-color: #f9f9f9;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-.profile-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 20px auto;
-    background: #ffffff;
-    border: 2px solid #134686;
-    border-radius: 10px;
-    box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    gap: 30px;
-}
-
-.left-side {
-    width: 35%;
-    text-align: center;
-    color: #134686;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .judul {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+  color: #134686;
 }
 
-.container {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #134686;
-    margin-bottom: 20px;
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #134686;
+  margin-bottom: 20px;
 }
 
-.right-side {
-    width: 65%;
-    color: #333;
-}
-
-.right-side h2 {
-    color: #134686;
-    border-left: 4px solid #134686;
-    padding-left: 8px;
-    margin-top: 10px;
+.section-title {
+  display: inline-block;
+  color: #134686;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-left: 4px solid #134686;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 
 span {
-    color: crimson;
-    font-weight: bold;
+  color: crimson;
+  font-weight: bold;
 }
 
-.socials ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
+.socials {
+  margin-top: 20px;
 }
 
-.socials li {
-    margin: 8px 0;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.socials a {
-    text-decoration: none;
-    color: #134686;
-    font-weight: bold;
-    transition: 0.3s;
+.social-icons a {
+  text-decoration: none;
+  color: #134686;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
-.socials a:hover {
-    color: crimson;
-    text-decoration: underline;
+.social-icons a:hover {
+  color: crimson;
+  text-decoration: underline;
 }
 
-.footer {
-    background: #134686;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
+footer {
+  background-color: #134686;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
 }

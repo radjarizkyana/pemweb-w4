@@ -1,57 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radja Rizkyana</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Radja Rizkyana</title>
+
+  <!-- Link Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div class="profile-container">
-        <div class="left-side">
-            <h1 class="judul">Profile Radja</h1>
-            <img class="container" src="jam.jpeg" alt="Foto Profil">
-
-            <div class="socials">
-                <h2>Sosial Media</h2>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/radjarizkyana" target="_blank">Instagram |
-                    </a>
-                    <a href="https://www.linkedin.com/in/radjarizky" target="_blank">LinkedIn |
-                    </a>
-                    <a href="https://github.com/radjarizkyana" target="_blank">GitHub |
-                    </a>
-                    <a href="mailto:radjarizkyana@gmail.com">Email
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="right-side">
-            <h2>Halo semua!</h2>
-            <p>Nama saya Muhammad <span>Radja</span> Rizkyana</p>
-            <p>Saya adalah mahasiswa semester 5 di Telkom University Jakarta, Prodi Teknologi Informasi.</p>
-            <p>Saya senang belajar hal baru, karena membuat diri saya menjadi tertantang</p>
-            <p>Selain itu, saya juga aktif dalam mengikuti kompetisi baik di bidang akademik dan non akademik,
-                saya juga aktif pada beberapa organisasi di Telkom University Jakarta
-            </p>
-
-            <h2>Hobi saya</h2>
-            <ul>
-                <li>Olahraga</li>
-                <li>Belajar hal baru</li>
-                <li>Mendengarkan musik</li>
-            </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #134686;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Radja Rizkyana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <footer class="footer">
-        <p>Terima kasih sudah berkunjung!</p>
-    </footer>
+  <div class="container my-5">
+    <div class="row g-4 align-items-center">
 
+        <div class="col-md-4 text-center">
+        <h1 class="judul mb-3">Profile Radja</h1>
+        <img src="jam.jpeg" alt="Foto Profil" class="profile-img">
+
+        <div class="socials mt-4">
+          <h2 class="section-title">Sosial Media</h2>
+          <div class="social-icons mt-2">
+            <a href="https://www.instagram.com/radjarizkyana" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/radjarizky" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/radjarizkyana" target="_blank">GitHub</a> |
+            <a href="mailto:radjarizkyana@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <h2>Halo semua!</h2>
+        <p>Nama saya Muhammad <span>Radja</span> Rizkyana.</p>
+        <p>Saya adalah mahasiswa semester 5 di Telkom University Jakarta, Prodi Teknologi Informasi.</p>
+        <p>Saya senang belajar hal baru karena membuat diri saya menjadi tertantang.</p>
+        <p>Saya juga aktif dalam mengikuti kompetisi baik di bidang akademik maupun non-akademik,
+          dan terlibat dalam beberapa organisasi di Telkom University Jakarta.</p>
+
+        <h2>Hobi Saya</h2>
+        <ul>
+          <li>Olahraga</li>
+          <li>Belajar hal baru</li>
+          <li>Mendengarkan musik</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Terima kasih sudah berkunjung!</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
